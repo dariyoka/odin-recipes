@@ -4,11 +4,30 @@ h1 {
   font-weight: 200;
 }
 
-li {
-  color: #9CA3AF;
+h2 {
+  color: #1F2937;
+  font-family: 'Lucida Handwriting';
+  font-size: 24px;
 }
 
 a {
   color: #4B5563;
   font-family: 'Courier New', Courier, monospace
+}
+
+li {
+  color: #6B7280;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+.list-sub {
+  color: white;
+  font-size: 24px;
+  background-color: #9CA3AF;
+}
+
+p {
+  color: #374151;
+  font-family: Andale Mono, monospace;
+  font-size: 20px;
 }

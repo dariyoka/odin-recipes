@@ -1,24 +1,40 @@
+.homepage {
+  margin: 0 auto;
+  text-align: center;
+}
+
+body {
+  margin: 0 24px;
+}
+
 h1 {
   color: #A78347;
   font-family: fantasy;
   font-weight: 200;
+  font-size: 80px;
 }
 
 h2 {
+
   color: #1F2937;
   font-family: 'Lucida Handwriting';
-  font-size: 24px;
+  font-size: 26px;
+  margin: 40px 0;
+
 }
 
 a {
   color: #4B5563;
-  font-family: 'Courier New', Courier, monospace
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 24px;
 }
 
 li {
   color: #6B7280;
   font-family: 'Courier New', Courier, monospace;
+  margin: 16px;
 }
+
 
 .list-sub {
   color: white;
@@ -30,4 +46,18 @@ p {
   color: #374151;
   font-family: Andale Mono, monospace;
   font-size: 20px;
+  margin: 16px 0;
+}
+
+.homepage_list {
+  display: inline;
+  background-color: #F3F4F6;
+  padding: 8px 24px;
+  margin: 16px;
+}
+
+img {
+  width: 100%;
+  height: 500px;
+  object-fit: cover;
 }

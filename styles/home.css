@@ -1,0 +1,54 @@
+/* home.css */
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background-color: #85AEA8;
+  font-family: 'Pixelify Sans', 'Courier New';
+}
+
+.page {
+  background-color: #A9D5BC;
+  width: 1200px;
+  height: 100%;
+  margin: 0 auto;
+}
+
+.recipe-card {
+  align-items: center;
+  background-color: #E7E7E7;
+  width: 800px;
+  margin: 0 auto;
+  align-items: center;
+}
+
+.title {
+  background-color: #40424F;
+  color: #85AEA8;
+  padding: 20px;
+}
+
+.recipe-list {
+  padding: 5px 10px;
+  list-style-type: square;
+  color: #85AEA8;
+  margin-left: 30px;
+}
+
+.recipe {
+  color: #2B2A2D;
+
+  margin-bottom: 10px;
+}
+
+.recipe a {
+  color: #40424F;
+  text-decoration: none;
+  font-size: 26px;
+}
+
+.recipe a:hover {
+  color: #85AEA8;
+}
